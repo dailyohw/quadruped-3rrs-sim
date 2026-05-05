@@ -1,0 +1,1 @@
+/mnt/data/2026_1/go2_ws/build/champ_msgs/rosidl_generator_c/champ_msgs/msg/point_array.h

@@ -1,0 +1,14 @@
+{
+  "package_name": "champ_msgs",
+  "non_idl_tuples": [
+    "/mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs:msg/Velocities.msg",
+    "/mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs:msg/PID.msg",
+    "/mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs:msg/Imu.msg",
+    "/mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs:msg/Point.msg",
+    "/mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs:msg/PointArray.msg",
+    "/mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs:msg/Joints.msg",
+    "/mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs:msg/Contacts.msg",
+    "/mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs:msg/ContactsStamped.msg",
+    "/mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs:msg/Pose.msg"
+  ]
+}

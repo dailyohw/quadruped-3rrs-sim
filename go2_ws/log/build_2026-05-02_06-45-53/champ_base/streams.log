@@ -1,0 +1,170 @@
+[0.011s] Invoking command in '/mnt/data/2026_1/go2_ws/build/champ_base': AMENT_PREFIX_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs:/mnt/data/2026_1/go2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs:/mnt/data/2026_1/go2_ws/install/champ:/mnt/data/drone_writer_ws/install/mavros:/mnt/data/drone_writer_ws/install/mavros_msgs:/mnt/data/drone_writer_ws/install/libmavconn:/mnt/data/px4_ros_ws/install/px4_ros_com:/mnt/data/px4_ros_ws/install/px4_msgs:/mnt/data/px4_ros_ws/install/mavros_extras:/mnt/data/px4_ros_ws/install/mavros_examples:/mnt/data/px4_ros_ws/install/mavros:/mnt/data/px4_ros_ws/install/mavros_msgs:/mnt/data/px4_ros_ws/install/libmavconn:/mnt/data/drone_writer_ws/install/drone_writer:/mnt/data/px4_ros_ws/install/drone_control:/opt/ros/humble CONDA_ENV_SHLVL_2_PIXI_PROMPT=(unitree_go2_ros2) LD_LIBRARY_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(unitree_go2_ros2) PS1=(unitree_go2_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/data/2026_1/go2_ws/install/champ_msgs/lib/python3.10/site-packages:${PYTHONPATH} /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/data/2026_1/go2_ws/install/champ_base
+[0.017s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.017s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.017s]   CMake.
+[0.017s] 
+[0.017s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.017s]   to tell CMake that the project requires at least <min> but has been updated
+[0.017s]   to work with policies introduced by <max> or earlier.
+[0.017s] 
+[0.017s] [0m
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.118s] -- The CXX compiler identification is GNU 11.4.0
+[0.125s] -- Detecting C compiler ABI info
+[0.190s] -- Detecting C compiler ABI info - done
+[0.203s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.204s] -- Detecting C compile features
+[0.204s] -- Detecting C compile features - done
+[0.215s] -- Detecting CXX compiler ABI info
+[0.287s] -- Detecting CXX compiler ABI info - done
+[0.302s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.302s] -- Detecting CXX compile features
+[0.303s] -- Detecting CXX compile features - done
+[0.313s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.415s] -- Found Python3: /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/python3 (found version "3.10.20") found components: Interpreter
+[0.473s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.532s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.599s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.608s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.620s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.637s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.660s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.727s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.732s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.095s] -- Found OpenSSL: /mnt/data/2026_1/go2_ws/.pixi/envs/default/lib/libcrypto.so (found version "3.6.2")
+[1.147s] -- Found FastRTPS: /opt/ros/humble/include
+[1.228s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.243s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.311s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.312s] -- Found Threads: TRUE
+[1.382s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[1.383s] -- Found champ_msgs: 0.1.0 (/mnt/data/2026_1/go2_ws/install/champ_msgs/share/champ_msgs/cmake)
+[1.422s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.482s] -- Found trajectory_msgs: 4.9.0 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.508s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.536s] -- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.698s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.745s] -- Found champ: 0.1.0 (/mnt/data/2026_1/go2_ws/install/champ/share/champ/cmake)
+[1.866s] -- Configuring done (1.9s)
+[1.890s] [33mCMake Warning at CMakeLists.txt:67 (add_library):
+[1.890s]   Cannot generate a safe runtime search path for target quadruped_controller
+[1.890s]   because files in some directories may conflict with libraries in implicit
+[1.890s]   directories:
+[1.891s] 
+[1.891s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.891s]       /mnt/data/2026_1/go2_ws/.pixi/envs/default/lib
+[1.891s] 
+[1.891s]   Some of these libraries may not be found correctly.
+[1.891s] 
+[1.891s] [0m
+[1.896s] [33mCMake Warning at CMakeLists.txt:69 (add_executable):
+[1.896s]   Cannot generate a safe runtime search path for target
+[1.896s]   quadruped_controller_node because files in some directories may conflict
+[1.896s]   with libraries in implicit directories:
+[1.896s] 
+[1.896s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.896s]       /mnt/data/2026_1/go2_ws/.pixi/envs/default/lib
+[1.896s] 
+[1.896s]   Some of these libraries may not be found correctly.
+[1.896s] 
+[1.897s] [0m
+[1.902s] [33mCMake Warning at CMakeLists.txt:74 (add_library):
+[1.902s]   Cannot generate a safe runtime search path for target message_relay because
+[1.902s]   files in some directories may conflict with libraries in implicit
+[1.902s]   directories:
+[1.902s] 
+[1.902s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.902s]       /mnt/data/2026_1/go2_ws/.pixi/envs/default/lib
+[1.902s] 
+[1.902s]   Some of these libraries may not be found correctly.
+[1.902s] 
+[1.902s] [0m
+[1.907s] [33mCMake Warning at CMakeLists.txt:76 (add_executable):
+[1.907s]   Cannot generate a safe runtime search path for target message_relay_node
+[1.907s]   because files in some directories may conflict with libraries in implicit
+[1.907s]   directories:
+[1.907s] 
+[1.908s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.908s]       /mnt/data/2026_1/go2_ws/.pixi/envs/default/lib
+[1.908s] 
+[1.908s]   Some of these libraries may not be found correctly.
+[1.908s] 
+[1.908s] [0m
+[1.912s] [33mCMake Warning at CMakeLists.txt:81 (add_library):
+[1.912s]   Cannot generate a safe runtime search path for target state_estimation
+[1.912s]   because files in some directories may conflict with libraries in implicit
+[1.912s]   directories:
+[1.912s] 
+[1.912s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.912s]       /mnt/data/2026_1/go2_ws/.pixi/envs/default/lib
+[1.912s] 
+[1.912s]   Some of these libraries may not be found correctly.
+[1.912s] 
+[1.913s] [0m
+[1.917s] [33mCMake Warning at CMakeLists.txt:83 (add_executable):
+[1.918s]   Cannot generate a safe runtime search path for target state_estimation_node
+[1.918s]   because files in some directories may conflict with libraries in implicit
+[1.918s]   directories:
+[1.918s] 
+[1.918s]     runtime library [libpython3.10.so.1.0] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+[1.918s]       /mnt/data/2026_1/go2_ws/.pixi/envs/default/lib
+[1.918s] 
+[1.918s]   Some of these libraries may not be found correctly.
+[1.918s] 
+[1.918s] [0m
+[1.921s] -- Generating done (0.1s)
+[1.966s] -- Build files have been written to: /mnt/data/2026_1/go2_ws/build/champ_base
+[1.979s] Invoked command in '/mnt/data/2026_1/go2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs:/mnt/data/2026_1/go2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs:/mnt/data/2026_1/go2_ws/install/champ:/mnt/data/drone_writer_ws/install/mavros:/mnt/data/drone_writer_ws/install/mavros_msgs:/mnt/data/drone_writer_ws/install/libmavconn:/mnt/data/px4_ros_ws/install/px4_ros_com:/mnt/data/px4_ros_ws/install/px4_msgs:/mnt/data/px4_ros_ws/install/mavros_extras:/mnt/data/px4_ros_ws/install/mavros_examples:/mnt/data/px4_ros_ws/install/mavros:/mnt/data/px4_ros_ws/install/mavros_msgs:/mnt/data/px4_ros_ws/install/libmavconn:/mnt/data/drone_writer_ws/install/drone_writer:/mnt/data/px4_ros_ws/install/drone_control:/opt/ros/humble CONDA_ENV_SHLVL_2_PIXI_PROMPT=(unitree_go2_ros2) LD_LIBRARY_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(unitree_go2_ros2) PS1=(unitree_go2_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/data/2026_1/go2_ws/install/champ_msgs/lib/python3.10/site-packages:${PYTHONPATH} /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/mnt/data/2026_1/go2_ws/install/champ_base
+[1.980s] Invoking command in '/mnt/data/2026_1/go2_ws/build/champ_base': AMENT_PREFIX_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs:/mnt/data/2026_1/go2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs:/mnt/data/2026_1/go2_ws/install/champ:/mnt/data/drone_writer_ws/install/mavros:/mnt/data/drone_writer_ws/install/mavros_msgs:/mnt/data/drone_writer_ws/install/libmavconn:/mnt/data/px4_ros_ws/install/px4_ros_com:/mnt/data/px4_ros_ws/install/px4_msgs:/mnt/data/px4_ros_ws/install/mavros_extras:/mnt/data/px4_ros_ws/install/mavros_examples:/mnt/data/px4_ros_ws/install/mavros:/mnt/data/px4_ros_ws/install/mavros_msgs:/mnt/data/px4_ros_ws/install/libmavconn:/mnt/data/drone_writer_ws/install/drone_writer:/mnt/data/px4_ros_ws/install/drone_control:/opt/ros/humble CONDA_ENV_SHLVL_2_PIXI_PROMPT=(unitree_go2_ros2) LD_LIBRARY_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(unitree_go2_ros2) PS1=(unitree_go2_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/data/2026_1/go2_ws/install/champ_msgs/lib/python3.10/site-packages:${PYTHONPATH} /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake --build /mnt/data/2026_1/go2_ws/build/champ_base -- -j12 -l12
+[2.021s] [ 25%] [32mBuilding CXX object CMakeFiles/message_relay.dir/src/message_relay.cpp.o[0m
+[2.021s] [ 25%] [32mBuilding CXX object CMakeFiles/quadruped_controller.dir/src/quadruped_controller.cpp.o[0m
+[2.021s] [ 25%] [32mBuilding CXX object CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o[0m
+[12.512s] [ 33%] [1m[32mLinking CXX shared library libquadruped_controller.so[0m
+[13.132s] [ 33%] Built target quadruped_controller
+[13.150s] [ 41%] [32mBuilding CXX object CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o[0m
+[15.110s] [ 50%] [1m[32mLinking CXX shared library libmessage_relay.so[0m
+[15.917s] [ 50%] Built target message_relay
+[15.935s] [ 58%] [32mBuilding CXX object CMakeFiles/message_relay_node.dir/src/message_relay_node.cpp.o[0m
+[16.137s] [ 66%] [1m[32mLinking CXX executable quadruped_controller_node[0m
+[16.411s] [ 66%] Built target quadruped_controller_node
+[16.995s] [ 75%] [1m[32mLinking CXX shared library libstate_estimation.so[0m
+[17.818s] [ 75%] Built target state_estimation
+[17.835s] [ 83%] [32mBuilding CXX object CMakeFiles/state_estimation_node.dir/src/state_estimation_node.cpp.o[0m
+[18.866s] [ 91%] [1m[32mLinking CXX executable message_relay_node[0m
+[19.163s] [ 91%] Built target message_relay_node
+[22.625s] [100%] [1m[32mLinking CXX executable state_estimation_node[0m
+[22.942s] [100%] Built target state_estimation_node
+[22.951s] Invoked command in '/mnt/data/2026_1/go2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs:/mnt/data/2026_1/go2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs:/mnt/data/2026_1/go2_ws/install/champ:/mnt/data/drone_writer_ws/install/mavros:/mnt/data/drone_writer_ws/install/mavros_msgs:/mnt/data/drone_writer_ws/install/libmavconn:/mnt/data/px4_ros_ws/install/px4_ros_com:/mnt/data/px4_ros_ws/install/px4_msgs:/mnt/data/px4_ros_ws/install/mavros_extras:/mnt/data/px4_ros_ws/install/mavros_examples:/mnt/data/px4_ros_ws/install/mavros:/mnt/data/px4_ros_ws/install/mavros_msgs:/mnt/data/px4_ros_ws/install/libmavconn:/mnt/data/drone_writer_ws/install/drone_writer:/mnt/data/px4_ros_ws/install/drone_control:/opt/ros/humble CONDA_ENV_SHLVL_2_PIXI_PROMPT=(unitree_go2_ros2) LD_LIBRARY_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(unitree_go2_ros2) PS1=(unitree_go2_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/data/2026_1/go2_ws/install/champ_msgs/lib/python3.10/site-packages:${PYTHONPATH} /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake --build /mnt/data/2026_1/go2_ws/build/champ_base -- -j12 -l12
+[22.952s] Invoking command in '/mnt/data/2026_1/go2_ws/build/champ_base': AMENT_PREFIX_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs:/mnt/data/2026_1/go2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs:/mnt/data/2026_1/go2_ws/install/champ:/mnt/data/drone_writer_ws/install/mavros:/mnt/data/drone_writer_ws/install/mavros_msgs:/mnt/data/drone_writer_ws/install/libmavconn:/mnt/data/px4_ros_ws/install/px4_ros_com:/mnt/data/px4_ros_ws/install/px4_msgs:/mnt/data/px4_ros_ws/install/mavros_extras:/mnt/data/px4_ros_ws/install/mavros_examples:/mnt/data/px4_ros_ws/install/mavros:/mnt/data/px4_ros_ws/install/mavros_msgs:/mnt/data/px4_ros_ws/install/libmavconn:/mnt/data/drone_writer_ws/install/drone_writer:/mnt/data/px4_ros_ws/install/drone_control:/opt/ros/humble CONDA_ENV_SHLVL_2_PIXI_PROMPT=(unitree_go2_ros2) LD_LIBRARY_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(unitree_go2_ros2) PS1=(unitree_go2_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/data/2026_1/go2_ws/install/champ_msgs/lib/python3.10/site-packages:${PYTHONPATH} /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake --install /mnt/data/2026_1/go2_ws/build/champ_base
+[22.958s] -- Install configuration: ""
+[22.958s] -- Execute custom install script
+[22.959s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/config/ekf/base_to_footprint.yaml
+[22.965s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/config/ekf/footprint_to_odom.yaml
+[22.971s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/config/velocity_smoother/velocity_smoother.yaml
+[22.977s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/lib/libquadruped_controller.so
+[22.983s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/bin/quadruped_controller_node
+[22.989s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/lib/libmessage_relay.so
+[22.995s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/bin/message_relay_node
+[23.001s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/lib/libstate_estimation.so
+[23.007s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/bin/state_estimation_node
+[23.014s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/lib/champ_base/quadruped_controller_node
+[23.020s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/lib/champ_base/message_relay_node
+[23.026s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/lib/champ_base/state_estimation_node
+[23.032s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/ament_index/resource_index/package_run_dependencies/champ_base
+[23.039s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/ament_index/resource_index/parent_prefix_path/champ_base
+[23.046s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.sh
+[23.052s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/environment/ament_prefix_path.dsv
+[23.058s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/environment/path.sh
+[23.065s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/environment/path.dsv
+[23.072s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/local_setup.bash
+[23.078s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/local_setup.sh
+[23.085s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/local_setup.zsh
+[23.091s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/local_setup.dsv
+[23.097s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/package.dsv
+[23.103s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/ament_index/resource_index/packages/champ_base
+[23.109s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.115s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.121s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig.cmake
+[23.127s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/cmake/champ_baseConfig-version.cmake
+[23.133s] -- Symlinking: /mnt/data/2026_1/go2_ws/install/champ_base/share/champ_base/package.xml
+[23.141s] Invoked command in '/mnt/data/2026_1/go2_ws/build/champ_base' returned '0': AMENT_PREFIX_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs:/mnt/data/2026_1/go2_ws/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs:/mnt/data/2026_1/go2_ws/install/champ:/mnt/data/drone_writer_ws/install/mavros:/mnt/data/drone_writer_ws/install/mavros_msgs:/mnt/data/drone_writer_ws/install/libmavconn:/mnt/data/px4_ros_ws/install/px4_ros_com:/mnt/data/px4_ros_ws/install/px4_msgs:/mnt/data/px4_ros_ws/install/mavros_extras:/mnt/data/px4_ros_ws/install/mavros_examples:/mnt/data/px4_ros_ws/install/mavros:/mnt/data/px4_ros_ws/install/mavros_msgs:/mnt/data/px4_ros_ws/install/libmavconn:/mnt/data/drone_writer_ws/install/drone_writer:/mnt/data/px4_ros_ws/install/drone_control:/opt/ros/humble CONDA_ENV_SHLVL_2_PIXI_PROMPT=(unitree_go2_ros2) LD_LIBRARY_PATH=/mnt/data/2026_1/go2_ws/install/champ_msgs/lib:${LD_LIBRARY_PATH} PIXI_PROMPT=(unitree_go2_ros2) PS1=(unitree_go2_ros2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/mnt/data/2026_1/go2_ws/install/champ_msgs/lib/python3.10/site-packages:${PYTHONPATH} /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake --install /mnt/data/2026_1/go2_ws/build/champ_base

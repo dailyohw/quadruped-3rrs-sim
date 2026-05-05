@@ -1,0 +1,9 @@
+/mnt/data/2026_1/go2_ws/build/unitree_go2_sim/CMakeFiles/uninstall.dir
+/mnt/data/2026_1/go2_ws/build/unitree_go2_sim/CMakeFiles/unitree_go2_sim_uninstall.dir
+/mnt/data/2026_1/go2_ws/build/unitree_go2_sim/CMakeFiles/test.dir
+/mnt/data/2026_1/go2_ws/build/unitree_go2_sim/CMakeFiles/edit_cache.dir
+/mnt/data/2026_1/go2_ws/build/unitree_go2_sim/CMakeFiles/rebuild_cache.dir
+/mnt/data/2026_1/go2_ws/build/unitree_go2_sim/CMakeFiles/list_install_components.dir
+/mnt/data/2026_1/go2_ws/build/unitree_go2_sim/CMakeFiles/install.dir
+/mnt/data/2026_1/go2_ws/build/unitree_go2_sim/CMakeFiles/install/local.dir
+/mnt/data/2026_1/go2_ws/build/unitree_go2_sim/CMakeFiles/install/strip.dir

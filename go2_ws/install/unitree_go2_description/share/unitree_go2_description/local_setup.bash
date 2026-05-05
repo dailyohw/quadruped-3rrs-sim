@@ -1,0 +1,1 @@
+/mnt/data/2026_1/go2_ws/build/unitree_go2_description/ament_cmake_environment_hooks/local_setup.bash
