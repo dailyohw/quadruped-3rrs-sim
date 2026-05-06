@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake
+CMAKE_COMMAND = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
 
 # The command to remove a file.
-RM = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
+RM = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base
+CMAKE_SOURCE_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/data/2026_1/go2_ws/build/champ_base
+CMAKE_BINARY_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base
 
 # Include any dependencies generated for this target.
 include CMakeFiles/state_estimation.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/state_estimation.dir/codegen:
 .PHONY : CMakeFiles/state_estimation.dir/codegen
 
 CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o: CMakeFiles/state_estimation.dir/flags.make
-CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o: /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base/src/state_estimation.cpp
+CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base/src/state_estimation.cpp
 CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o: CMakeFiles/state_estimation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/data/2026_1/go2_ws/build/champ_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o -MF CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o.d -o CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o -c /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base/src/state_estimation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o -MF CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o.d -o CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o -c /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base/src/state_estimation.cpp
 
 CMakeFiles/state_estimation.dir/src/state_estimation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/state_estimation.dir/src/state_estimation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base/src/state_estimation.cpp > CMakeFiles/state_estimation.dir/src/state_estimation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base/src/state_estimation.cpp > CMakeFiles/state_estimation.dir/src/state_estimation.cpp.i
 
 CMakeFiles/state_estimation.dir/src/state_estimation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/state_estimation.dir/src/state_estimation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base/src/state_estimation.cpp -o CMakeFiles/state_estimation.dir/src/state_estimation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base/src/state_estimation.cpp -o CMakeFiles/state_estimation.dir/src/state_estimation.cpp.s
 
 # Object files for target state_estimation
 state_estimation_OBJECTS = \
@@ -95,12 +95,12 @@ state_estimation_EXTERNAL_OBJECTS =
 
 libstate_estimation.so: CMakeFiles/state_estimation.dir/src/state_estimation.cpp.o
 libstate_estimation.so: CMakeFiles/state_estimation.dir/build.make
-libstate_estimation.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so
-libstate_estimation.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so
-libstate_estimation.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so
-libstate_estimation.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so
-libstate_estimation.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so
-libstate_estimation.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so
+libstate_estimation.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so
+libstate_estimation.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so
+libstate_estimation.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so
+libstate_estimation.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so
+libstate_estimation.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so
+libstate_estimation.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so
 libstate_estimation.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
 libstate_estimation.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
 libstate_estimation.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
@@ -126,9 +126,9 @@ libstate_estimation.so: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.
 libstate_estimation.so: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so
 libstate_estimation.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 libstate_estimation.so: /opt/ros/humble/lib/liburdf.so
-libstate_estimation.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so
-libstate_estimation.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so
-libstate_estimation.so: /mnt/data/2026_1/go2_ws/.pixi/envs/default/lib/libpython3.10.so
+libstate_estimation.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so
+libstate_estimation.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so
+libstate_estimation.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/libpython3.10.so
 libstate_estimation.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_c.so
 libstate_estimation.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so
 libstate_estimation.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
@@ -196,7 +196,7 @@ libstate_estimation.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_f
 libstate_estimation.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 libstate_estimation.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
 libstate_estimation.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-libstate_estimation.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+libstate_estimation.so: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 libstate_estimation.so: /opt/ros/humble/lib/librmw.so
 libstate_estimation.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so
 libstate_estimation.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
@@ -246,7 +246,7 @@ libstate_estimation.so: /opt/ros/humble/lib/librcutils.so
 libstate_estimation.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 libstate_estimation.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libstate_estimation.so: CMakeFiles/state_estimation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/data/2026_1/go2_ws/build/champ_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libstate_estimation.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libstate_estimation.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/state_estimation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -258,6 +258,6 @@ CMakeFiles/state_estimation.dir/clean:
 .PHONY : CMakeFiles/state_estimation.dir/clean
 
 CMakeFiles/state_estimation.dir/depend:
-	cd /mnt/data/2026_1/go2_ws/build/champ_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base /mnt/data/2026_1/go2_ws/build/champ_base /mnt/data/2026_1/go2_ws/build/champ_base /mnt/data/2026_1/go2_ws/build/champ_base/CMakeFiles/state_estimation.dir/DependInfo.cmake "--color=$(COLOR)" state_estimation
+	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base/CMakeFiles/state_estimation.dir/DependInfo.cmake "--color=$(COLOR)" state_estimation
 .PHONY : CMakeFiles/state_estimation.dir/depend
 

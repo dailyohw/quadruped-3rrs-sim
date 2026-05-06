@@ -59,8 +59,8 @@ endif()
 add_library(champ_msgs::champ_msgs__rosidl_generator_py SHARED IMPORTED)
 
 set_target_properties(champ_msgs::champ_msgs__rosidl_generator_py PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "/home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include"
-  INTERFACE_LINK_LIBRARIES "champ_msgs::champ_msgs__rosidl_generator_c;/mnt/data/2026_1/go2_ws/.pixi/envs/default/lib/libpython3.10.so;champ_msgs::champ_msgs__rosidl_typesupport_c;std_msgs::std_msgs__rosidl_generator_py;builtin_interfaces::builtin_interfaces__rosidl_generator_py;geometry_msgs::geometry_msgs__rosidl_generator_py"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include"
+  INTERFACE_LINK_LIBRARIES "champ_msgs::champ_msgs__rosidl_generator_c;/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/libpython3.10.so;champ_msgs::champ_msgs__rosidl_typesupport_c;std_msgs::std_msgs__rosidl_generator_py;builtin_interfaces::builtin_interfaces__rosidl_generator_py;geometry_msgs::geometry_msgs__rosidl_generator_py"
 )
 
 # Load information for each installed configuration.

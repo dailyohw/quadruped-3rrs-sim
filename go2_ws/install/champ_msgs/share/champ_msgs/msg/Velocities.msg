@@ -1,1 +1,4 @@
-/mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Velocities.msg
+
+float32 linear_x
+float32 linear_y
+float32 angular_z

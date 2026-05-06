@@ -1,7 +1,7 @@
 CMakeFiles/message_relay.dir/src/message_relay.cpp.o: \
- /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base/src/message_relay.cpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base/src/message_relay.cpp \
  /usr/include/stdc-predef.h \
- /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base/include/message_relay.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base/include/message_relay.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -347,6 +347,7 @@ CMakeFiles/message_relay.dir/src/message_relay.cpp.o: \
  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
  /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+ /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/detail/node_interfaces_helpers.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
@@ -619,34 +620,34 @@ CMakeFiles/message_relay.dir/src/message_relay.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/joints.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__struct.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__builder.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__traits.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/imu.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__struct.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/joints.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__struct.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__builder.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__traits.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/joints__type_support.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/imu.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__builder.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__traits.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__builder.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__struct.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__builder.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__traits.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts_stamped.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__struct.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/imu__type_support.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__struct.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__builder.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__traits.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts__type_support.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/contacts_stamped.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__builder.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__traits.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__builder.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__traits.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
- /mnt/data/2026_1/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.hpp \
- /mnt/data/2026_1/go2_ws/install/champ/include/champ/utils/urdf_loader.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/include/champ_msgs/champ_msgs/msg/detail/contacts_stamped__type_support.hpp \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ/include/champ/utils/urdf_loader.h \
  /opt/ros/humble/include/urdf/urdf/model.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/model.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_model/link.h \
@@ -661,13 +662,13 @@ CMakeFiles/message_relay.dir/src/message_relay.cpp.o: \
  /opt/ros/humble/include/urdf/urdf/urdfdom_compatibility.h \
  /opt/ros/humble/include/urdfdom_headers/urdf_world/types.h \
  /opt/ros/humble/include/urdf/urdf/visibility_control.hpp \
- /mnt/data/2026_1/go2_ws/install/champ/include/champ/quadruped_base/quadruped_base.h \
- /mnt/data/2026_1/go2_ws/install/champ/include/champ/geometry/geometry.h \
- /mnt/data/2026_1/go2_ws/install/champ/include/champ/bla/basic_linear_algebra.h \
- /mnt/data/2026_1/go2_ws/install/champ/include/champ/bla/memory_delegate.h \
- /mnt/data/2026_1/go2_ws/install/champ/include/champ/quadruped_base/quadruped_leg.h \
- /mnt/data/2026_1/go2_ws/install/champ/include/champ/quadruped_base/quadruped_joint.h \
- /mnt/data/2026_1/go2_ws/install/champ/include/champ/quadruped_base/quadruped_components.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ/include/champ/quadruped_base/quadruped_base.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ/include/champ/geometry/geometry.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ/include/champ/bla/basic_linear_algebra.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ/include/champ/bla/memory_delegate.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ/include/champ/quadruped_base/quadruped_leg.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ/include/champ/quadruped_base/quadruped_joint.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ/include/champ/quadruped_base/quadruped_components.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.h \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp \
  /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp \
@@ -724,7 +725,8 @@ CMakeFiles/message_relay.dir/src/message_relay.cpp.o: \
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp \
  /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.hpp \
  /opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.h \
- /opt/ros/humble/include/tf2_ros/tf2_ros/visibility_control.h \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/transform_broadcaster.hpp \
+ /opt/ros/humble/include/tf2_ros/tf2_ros/visibility_control.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/transform_stamped.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform_stamped__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/transform__struct.hpp \

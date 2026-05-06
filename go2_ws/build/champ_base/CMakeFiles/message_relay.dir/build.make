@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake
+CMAKE_COMMAND = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
 
 # The command to remove a file.
-RM = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
+RM = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base
+CMAKE_SOURCE_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/data/2026_1/go2_ws/build/champ_base
+CMAKE_BINARY_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base
 
 # Include any dependencies generated for this target.
 include CMakeFiles/message_relay.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/message_relay.dir/codegen:
 .PHONY : CMakeFiles/message_relay.dir/codegen
 
 CMakeFiles/message_relay.dir/src/message_relay.cpp.o: CMakeFiles/message_relay.dir/flags.make
-CMakeFiles/message_relay.dir/src/message_relay.cpp.o: /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base/src/message_relay.cpp
+CMakeFiles/message_relay.dir/src/message_relay.cpp.o: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base/src/message_relay.cpp
 CMakeFiles/message_relay.dir/src/message_relay.cpp.o: CMakeFiles/message_relay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/data/2026_1/go2_ws/build/champ_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/message_relay.dir/src/message_relay.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/message_relay.dir/src/message_relay.cpp.o -MF CMakeFiles/message_relay.dir/src/message_relay.cpp.o.d -o CMakeFiles/message_relay.dir/src/message_relay.cpp.o -c /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base/src/message_relay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/message_relay.dir/src/message_relay.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/message_relay.dir/src/message_relay.cpp.o -MF CMakeFiles/message_relay.dir/src/message_relay.cpp.o.d -o CMakeFiles/message_relay.dir/src/message_relay.cpp.o -c /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base/src/message_relay.cpp
 
 CMakeFiles/message_relay.dir/src/message_relay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/message_relay.dir/src/message_relay.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base/src/message_relay.cpp > CMakeFiles/message_relay.dir/src/message_relay.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base/src/message_relay.cpp > CMakeFiles/message_relay.dir/src/message_relay.cpp.i
 
 CMakeFiles/message_relay.dir/src/message_relay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/message_relay.dir/src/message_relay.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base/src/message_relay.cpp -o CMakeFiles/message_relay.dir/src/message_relay.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base/src/message_relay.cpp -o CMakeFiles/message_relay.dir/src/message_relay.cpp.s
 
 # Object files for target message_relay
 message_relay_OBJECTS = \
@@ -95,12 +95,12 @@ message_relay_EXTERNAL_OBJECTS =
 
 libmessage_relay.so: CMakeFiles/message_relay.dir/src/message_relay.cpp.o
 libmessage_relay.so: CMakeFiles/message_relay.dir/build.make
-libmessage_relay.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so
-libmessage_relay.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so
-libmessage_relay.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so
-libmessage_relay.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so
-libmessage_relay.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so
-libmessage_relay.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so
+libmessage_relay.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so
+libmessage_relay.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so
+libmessage_relay.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so
+libmessage_relay.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so
+libmessage_relay.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so
+libmessage_relay.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so
 libmessage_relay.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
 libmessage_relay.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
 libmessage_relay.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
@@ -126,9 +126,9 @@ libmessage_relay.so: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_cpp.so
 libmessage_relay.so: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so
 libmessage_relay.so: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 libmessage_relay.so: /opt/ros/humble/lib/liburdf.so
-libmessage_relay.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so
-libmessage_relay.so: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so
-libmessage_relay.so: /mnt/data/2026_1/go2_ws/.pixi/envs/default/lib/libpython3.10.so
+libmessage_relay.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so
+libmessage_relay.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so
+libmessage_relay.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/libpython3.10.so
 libmessage_relay.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_c.so
 libmessage_relay.so: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so
 libmessage_relay.so: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
@@ -196,7 +196,7 @@ libmessage_relay.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fast
 libmessage_relay.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 libmessage_relay.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
 libmessage_relay.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-libmessage_relay.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+libmessage_relay.so: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 libmessage_relay.so: /opt/ros/humble/lib/librmw.so
 libmessage_relay.so: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so
 libmessage_relay.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
@@ -246,7 +246,7 @@ libmessage_relay.so: /opt/ros/humble/lib/librcutils.so
 libmessage_relay.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 libmessage_relay.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 libmessage_relay.so: CMakeFiles/message_relay.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/data/2026_1/go2_ws/build/champ_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libmessage_relay.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libmessage_relay.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/message_relay.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -258,6 +258,6 @@ CMakeFiles/message_relay.dir/clean:
 .PHONY : CMakeFiles/message_relay.dir/clean
 
 CMakeFiles/message_relay.dir/depend:
-	cd /mnt/data/2026_1/go2_ws/build/champ_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base /mnt/data/2026_1/go2_ws/build/champ_base /mnt/data/2026_1/go2_ws/build/champ_base /mnt/data/2026_1/go2_ws/build/champ_base/CMakeFiles/message_relay.dir/DependInfo.cmake "--color=$(COLOR)" message_relay
+	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base/CMakeFiles/message_relay.dir/DependInfo.cmake "--color=$(COLOR)" message_relay
 .PHONY : CMakeFiles/message_relay.dir/depend
 

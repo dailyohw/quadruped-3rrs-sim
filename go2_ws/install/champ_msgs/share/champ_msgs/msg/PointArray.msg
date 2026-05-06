@@ -1,1 +1,4 @@
-/mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/PointArray.msg
+champ_msgs/Point lf
+champ_msgs/Point rf
+champ_msgs/Point lh
+champ_msgs/Point rh

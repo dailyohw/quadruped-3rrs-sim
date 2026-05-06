@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake
+CMAKE_COMMAND = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
 
 # The command to remove a file.
-RM = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
+RM = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs
+CMAKE_SOURCE_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/data/2026_1/go2_ws/build/champ_msgs
+CMAKE_BINARY_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs
 
 # Utility rule file for champ_msgs__cpp.
 
@@ -201,8 +201,8 @@ rosidl_generator_cpp/champ_msgs/msg/velocities.hpp: /opt/ros/humble/share/geomet
 rosidl_generator_cpp/champ_msgs/msg/velocities.hpp: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_generator_cpp/champ_msgs/msg/velocities.hpp: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_cpp/champ_msgs/msg/velocities.hpp: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/data/2026_1/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /mnt/data/2026_1/go2_ws/build/champ_msgs/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/champ_msgs/msg/detail/velocities__builder.hpp: rosidl_generator_cpp/champ_msgs/msg/velocities.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/champ_msgs/msg/detail/velocities__builder.hpp
@@ -397,6 +397,6 @@ CMakeFiles/champ_msgs__cpp.dir/clean:
 .PHONY : CMakeFiles/champ_msgs__cpp.dir/clean
 
 CMakeFiles/champ_msgs__cpp.dir/depend:
-	cd /mnt/data/2026_1/go2_ws/build/champ_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs /mnt/data/2026_1/go2_ws/build/champ_msgs /mnt/data/2026_1/go2_ws/build/champ_msgs /mnt/data/2026_1/go2_ws/build/champ_msgs/CMakeFiles/champ_msgs__cpp.dir/DependInfo.cmake "--color=$(COLOR)" champ_msgs__cpp
+	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles/champ_msgs__cpp.dir/DependInfo.cmake "--color=$(COLOR)" champ_msgs__cpp
 .PHONY : CMakeFiles/champ_msgs__cpp.dir/depend
 

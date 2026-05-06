@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake
+CMAKE_COMMAND = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
 
 # The command to remove a file.
-RM = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
+RM = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs
+CMAKE_SOURCE_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/data/2026_1/go2_ws/build/champ_msgs
+CMAKE_BINARY_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs
 
 # Utility rule file for ament_cmake_python_build_champ_msgs_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_champ_msgs_egg.dir/compiler_depend.m
 include CMakeFiles/ament_cmake_python_build_champ_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_champ_msgs_egg:
-	cd /mnt/data/2026_1/go2_ws/build/champ_msgs/ament_cmake_python/champ_msgs && /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/python3 setup.py egg_info
+	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/ament_cmake_python/champ_msgs && /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/python3 setup.py egg_info
 
 CMakeFiles/ament_cmake_python_build_champ_msgs_egg.dir/codegen:
 .PHONY : CMakeFiles/ament_cmake_python_build_champ_msgs_egg.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/ament_cmake_python_build_champ_msgs_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_champ_msgs_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_champ_msgs_egg.dir/depend:
-	cd /mnt/data/2026_1/go2_ws/build/champ_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs /mnt/data/2026_1/go2_ws/build/champ_msgs /mnt/data/2026_1/go2_ws/build/champ_msgs /mnt/data/2026_1/go2_ws/build/champ_msgs/CMakeFiles/ament_cmake_python_build_champ_msgs_egg.dir/DependInfo.cmake "--color=$(COLOR)" ament_cmake_python_build_champ_msgs_egg
+	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles/ament_cmake_python_build_champ_msgs_egg.dir/DependInfo.cmake "--color=$(COLOR)" ament_cmake_python_build_champ_msgs_egg
 .PHONY : CMakeFiles/ament_cmake_python_build_champ_msgs_egg.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /mnt/data/2026_1/go2_ws/build/champ_msgs/champ_msgs__py
+# Install script for directory: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/mnt/data/2026_1/go2_ws/install/champ_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,6 +45,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/mnt/data/2026_1/go2_ws/build/champ_msgs/champ_msgs__py/install_local_manifest.txt"
+  file(WRITE "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

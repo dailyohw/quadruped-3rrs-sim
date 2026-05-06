@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake
+CMAKE_COMMAND = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
 
 # The command to remove a file.
-RM = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
+RM = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/unitree_go2_description
+CMAKE_SOURCE_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/unitree_go2_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/data/2026_1/go2_ws/build/unitree_go2_description
+CMAKE_BINARY_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -86,14 +86,14 @@ clean: CMakeFiles/unitree_go2_description_uninstall.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/unitree_go2_description_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/data/2026_1/go2_ws/build/unitree_go2_description/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/data/2026_1/go2_ws/build/unitree_go2_description/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/data/2026_1/go2_ws/build/unitree_go2_description/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -103,7 +103,7 @@ uninstall: CMakeFiles/uninstall.dir/rule
 # codegen rule for target.
 CMakeFiles/uninstall.dir/codegen: CMakeFiles/unitree_go2_description_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/data/2026_1/go2_ws/build/unitree_go2_description/CMakeFiles --progress-num= "Finished codegen for target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description/CMakeFiles --progress-num= "Finished codegen for target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/codegen
 
 # clean rule for target.
@@ -118,14 +118,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/unitree_go2_description_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitree_go2_description_uninstall.dir/build.make CMakeFiles/unitree_go2_description_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitree_go2_description_uninstall.dir/build.make CMakeFiles/unitree_go2_description_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/data/2026_1/go2_ws/build/unitree_go2_description/CMakeFiles --progress-num= "Built target unitree_go2_description_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description/CMakeFiles --progress-num= "Built target unitree_go2_description_uninstall"
 .PHONY : CMakeFiles/unitree_go2_description_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/unitree_go2_description_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/data/2026_1/go2_ws/build/unitree_go2_description/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/unitree_go2_description_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/data/2026_1/go2_ws/build/unitree_go2_description/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description/CMakeFiles 0
 .PHONY : CMakeFiles/unitree_go2_description_uninstall.dir/rule
 
 # Convenience name for target.
@@ -135,7 +135,7 @@ unitree_go2_description_uninstall: CMakeFiles/unitree_go2_description_uninstall.
 # codegen rule for target.
 CMakeFiles/unitree_go2_description_uninstall.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unitree_go2_description_uninstall.dir/build.make CMakeFiles/unitree_go2_description_uninstall.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/mnt/data/2026_1/go2_ws/build/unitree_go2_description/CMakeFiles --progress-num= "Finished codegen for target unitree_go2_description_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description/CMakeFiles --progress-num= "Finished codegen for target unitree_go2_description_uninstall"
 .PHONY : CMakeFiles/unitree_go2_description_uninstall.dir/codegen
 
 # clean rule for target.

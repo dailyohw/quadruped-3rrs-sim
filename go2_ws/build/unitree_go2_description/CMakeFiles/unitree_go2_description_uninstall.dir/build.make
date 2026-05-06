@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake
+CMAKE_COMMAND = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
 
 # The command to remove a file.
-RM = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
+RM = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/unitree_go2_description
+CMAKE_SOURCE_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/unitree_go2_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/data/2026_1/go2_ws/build/unitree_go2_description
+CMAKE_BINARY_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description
 
 # Utility rule file for unitree_go2_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/unitree_go2_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/unitree_go2_description_uninstall.dir/progress.make
 
 CMakeFiles/unitree_go2_description_uninstall:
-	/mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake -P /mnt/data/2026_1/go2_ws/build/unitree_go2_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -P /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 CMakeFiles/unitree_go2_description_uninstall.dir/codegen:
 .PHONY : CMakeFiles/unitree_go2_description_uninstall.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/unitree_go2_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/unitree_go2_description_uninstall.dir/clean
 
 CMakeFiles/unitree_go2_description_uninstall.dir/depend:
-	cd /mnt/data/2026_1/go2_ws/build/unitree_go2_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/unitree_go2_description /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/unitree_go2_description /mnt/data/2026_1/go2_ws/build/unitree_go2_description /mnt/data/2026_1/go2_ws/build/unitree_go2_description /mnt/data/2026_1/go2_ws/build/unitree_go2_description/CMakeFiles/unitree_go2_description_uninstall.dir/DependInfo.cmake "--color=$(COLOR)" unitree_go2_description_uninstall
+	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/unitree_go2_description /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/unitree_go2_description /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_description/CMakeFiles/unitree_go2_description_uninstall.dir/DependInfo.cmake "--color=$(COLOR)" unitree_go2_description_uninstall
 .PHONY : CMakeFiles/unitree_go2_description_uninstall.dir/depend
 

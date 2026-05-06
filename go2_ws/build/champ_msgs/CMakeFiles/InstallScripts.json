@@ -1,8 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"/mnt/data/2026_1/go2_ws/build/champ_msgs/cmake_install.cmake",
-		"/mnt/data/2026_1/go2_ws/build/champ_msgs/champ_msgs__py/cmake_install.cmake"
+		"/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/cmake_install.cmake",
+		"/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

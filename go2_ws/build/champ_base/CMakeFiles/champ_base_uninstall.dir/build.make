@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake
+CMAKE_COMMAND = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
 
 # The command to remove a file.
-RM = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
+RM = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base
+CMAKE_SOURCE_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/data/2026_1/go2_ws/build/champ_base
+CMAKE_BINARY_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base
 
 # Utility rule file for champ_base_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/champ_base_uninstall.dir/compiler_depend.make
 include CMakeFiles/champ_base_uninstall.dir/progress.make
 
 CMakeFiles/champ_base_uninstall:
-	/mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake -P /mnt/data/2026_1/go2_ws/build/champ_base/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -P /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 CMakeFiles/champ_base_uninstall.dir/codegen:
 .PHONY : CMakeFiles/champ_base_uninstall.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/champ_base_uninstall.dir/clean:
 .PHONY : CMakeFiles/champ_base_uninstall.dir/clean
 
 CMakeFiles/champ_base_uninstall.dir/depend:
-	cd /mnt/data/2026_1/go2_ws/build/champ_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base /mnt/data/2026_1/go2_ws/build/champ_base /mnt/data/2026_1/go2_ws/build/champ_base /mnt/data/2026_1/go2_ws/build/champ_base/CMakeFiles/champ_base_uninstall.dir/DependInfo.cmake "--color=$(COLOR)" champ_base_uninstall
+	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base/CMakeFiles/champ_base_uninstall.dir/DependInfo.cmake "--color=$(COLOR)" champ_base_uninstall
 .PHONY : CMakeFiles/champ_base_uninstall.dir/depend
 

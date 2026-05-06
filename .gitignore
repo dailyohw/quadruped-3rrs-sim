@@ -1,3 +1,9 @@
-# pixi environments
-.pixi/*
-!.pixi/config.toml
+build/
+install/
+log/
+.pixi/
+__pycache__/
+*.pyc
+*.pyo
+.vscode/
+*.swp

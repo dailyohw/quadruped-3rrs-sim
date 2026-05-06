@@ -1,1 +1,2 @@
-/mnt/data/2026_1/go2_ws/build/champ/ament_cmake_environment_hooks/local_setup.dsv
+source;share/champ/environment/ament_prefix_path.sh
+source;share/champ/environment/path.sh

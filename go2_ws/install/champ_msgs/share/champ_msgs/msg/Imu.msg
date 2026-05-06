@@ -1,1 +1,4 @@
-/mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Imu.msg
+geometry_msgs/Quaternion orientation
+geometry_msgs/Vector3 linear_acceleration
+geometry_msgs/Vector3 angular_velocity
+geometry_msgs/Vector3 magnetic_field

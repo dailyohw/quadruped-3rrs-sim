@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake
+CMAKE_COMMAND = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
 
 # The command to remove a file.
-RM = /mnt/data/2026_1/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
+RM = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base
+CMAKE_SOURCE_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/data/2026_1/go2_ws/build/champ_base
+CMAKE_BINARY_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base
 
 # Include any dependencies generated for this target.
 include CMakeFiles/quadruped_controller_node.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/quadruped_controller_node.dir/codegen:
 .PHONY : CMakeFiles/quadruped_controller_node.dir/codegen
 
 CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o: CMakeFiles/quadruped_controller_node.dir/flags.make
-CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o: /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base/src/quadruped_controller_node.cpp
+CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base/src/quadruped_controller_node.cpp
 CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o: CMakeFiles/quadruped_controller_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/data/2026_1/go2_ws/build/champ_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o -MF CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o.d -o CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o -c /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base/src/quadruped_controller_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o -MF CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o.d -o CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o -c /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base/src/quadruped_controller_node.cpp
 
 CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base/src/quadruped_controller_node.cpp > CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base/src/quadruped_controller_node.cpp > CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.i
 
 CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base/src/quadruped_controller_node.cpp -o CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base/src/quadruped_controller_node.cpp -o CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.s
 
 # Object files for target quadruped_controller_node
 quadruped_controller_node_OBJECTS = \
@@ -96,12 +96,12 @@ quadruped_controller_node_EXTERNAL_OBJECTS =
 quadruped_controller_node: CMakeFiles/quadruped_controller_node.dir/src/quadruped_controller_node.cpp.o
 quadruped_controller_node: CMakeFiles/quadruped_controller_node.dir/build.make
 quadruped_controller_node: libquadruped_controller.so
-quadruped_controller_node: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so
-quadruped_controller_node: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so
-quadruped_controller_node: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so
-quadruped_controller_node: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so
-quadruped_controller_node: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so
-quadruped_controller_node: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so
+quadruped_controller_node: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_c.so
+quadruped_controller_node: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_c.so
+quadruped_controller_node: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_fastrtps_cpp.so
+quadruped_controller_node: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_introspection_cpp.so
+quadruped_controller_node: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_cpp.so
+quadruped_controller_node: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_py.so
 quadruped_controller_node: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
 quadruped_controller_node: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
 quadruped_controller_node: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
@@ -127,9 +127,9 @@ quadruped_controller_node: /opt/ros/humble/lib/libnav_msgs__rosidl_typesupport_c
 quadruped_controller_node: /opt/ros/humble/lib/libnav_msgs__rosidl_generator_py.so
 quadruped_controller_node: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
 quadruped_controller_node: /opt/ros/humble/lib/liburdf.so
-quadruped_controller_node: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so
-quadruped_controller_node: /mnt/data/2026_1/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so
-quadruped_controller_node: /mnt/data/2026_1/go2_ws/.pixi/envs/default/lib/libpython3.10.so
+quadruped_controller_node: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_typesupport_c.so
+quadruped_controller_node: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ_msgs/lib/libchamp_msgs__rosidl_generator_c.so
+quadruped_controller_node: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/libpython3.10.so
 quadruped_controller_node: /opt/ros/humble/lib/libvisualization_msgs__rosidl_typesupport_c.so
 quadruped_controller_node: /opt/ros/humble/lib/libvisualization_msgs__rosidl_generator_c.so
 quadruped_controller_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
@@ -223,7 +223,7 @@ quadruped_controller_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.
 quadruped_controller_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
 quadruped_controller_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 quadruped_controller_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-quadruped_controller_node: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+quadruped_controller_node: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 quadruped_controller_node: /opt/ros/humble/lib/librmw.so
 quadruped_controller_node: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
 quadruped_controller_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
@@ -247,7 +247,7 @@ quadruped_controller_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 quadruped_controller_node: /opt/ros/humble/lib/libtracetools.so
 quadruped_controller_node: /opt/ros/humble/lib/librcutils.so
 quadruped_controller_node: CMakeFiles/quadruped_controller_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/data/2026_1/go2_ws/build/champ_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable quadruped_controller_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable quadruped_controller_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/quadruped_controller_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -259,6 +259,6 @@ CMakeFiles/quadruped_controller_node.dir/clean:
 .PHONY : CMakeFiles/quadruped_controller_node.dir/clean
 
 CMakeFiles/quadruped_controller_node.dir/depend:
-	cd /mnt/data/2026_1/go2_ws/build/champ_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base /mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_base /mnt/data/2026_1/go2_ws/build/champ_base /mnt/data/2026_1/go2_ws/build/champ_base /mnt/data/2026_1/go2_ws/build/champ_base/CMakeFiles/quadruped_controller_node.dir/DependInfo.cmake "--color=$(COLOR)" quadruped_controller_node
+	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base/CMakeFiles/quadruped_controller_node.dir/DependInfo.cmake "--color=$(COLOR)" quadruped_controller_node
 .PHONY : CMakeFiles/quadruped_controller_node.dir/depend
 

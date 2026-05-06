@@ -1,1 +1,3 @@
-/mnt/data/2026_1/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Point.msg
+float32 x
+float32 y
+float32 z

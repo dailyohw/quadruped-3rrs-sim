@@ -1,10 +1,10 @@
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o: \
- /mnt/data/2026_1/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_point_s.c \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_point_s.c \
  /usr/include/stdc-predef.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/Python.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/patchlevel.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pyconfig.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pymacconfig.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/Python.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/patchlevel.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pyconfig.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pymacconfig.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
  /usr/include/limits.h \
@@ -77,7 +77,7 @@ CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/ms
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /usr/include/linux/close_range.h /usr/include/assert.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pyport.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pyport.h \
  /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
@@ -111,125 +111,125 @@ CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/ms
  /usr/include/x86_64-linux-gnu/bits/statx-generic.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_statx.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/exports.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pymacro.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pymath.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pymem.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/pymem.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/object.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/object.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/objimpl.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/objimpl.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/typeslots.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pyhash.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/pydebug.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/bytearrayobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/bytearrayobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/bytesobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/bytesobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/unicodeobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/exports.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pymacro.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pymath.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pymem.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/pymem.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/object.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/object.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/objimpl.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/objimpl.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/typeslots.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pyhash.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/pydebug.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/bytearrayobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/bytearrayobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/bytesobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/bytesobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/unicodeobject.h \
  /usr/include/ctype.h /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/unicodeobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/longobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/longintrepr.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/boolobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/floatobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/complexobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/rangeobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/memoryobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/tupleobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/tupleobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/listobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/listobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/dictobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/dictobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/odictobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/enumobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/setobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/methodobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/methodobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/moduleobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/funcobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/classobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/fileobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/fileobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pycapsule.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/code.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/code.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pyframe.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/traceback.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/traceback.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/sliceobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cellobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/iterobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/initconfig.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/genobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pystate.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/pystate.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/abstract.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/abstract.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/descrobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/genericaliasobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/warnings.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/weakrefobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/structseq.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/namespaceobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/picklebufobject.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/pytime.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/codecs.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pyerrors.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/pyerrors.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pythread.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/unicodeobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/longobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/longintrepr.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/boolobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/floatobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/complexobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/rangeobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/memoryobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/tupleobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/tupleobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/listobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/listobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/dictobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/dictobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/odictobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/enumobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/setobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/methodobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/methodobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/moduleobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/funcobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/classobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/fileobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/fileobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pycapsule.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/code.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/code.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pyframe.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/traceback.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/traceback.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/sliceobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cellobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/iterobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/initconfig.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/genobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pystate.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/pystate.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/abstract.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/abstract.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/descrobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/genericaliasobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/warnings.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/weakrefobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/structseq.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/namespaceobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/picklebufobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/pytime.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/codecs.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pyerrors.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/pyerrors.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pythread.h \
  /usr/include/pthread.h /usr/include/sched.h \
  /usr/include/x86_64-linux-gnu/bits/sched.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/context.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/modsupport.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/compile.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/compile.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pythonrun.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/pythonrun.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pylifecycle.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/pylifecycle.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/ceval.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/ceval.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/sysmodule.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/sysmodule.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/osmodule.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/intrcheck.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/import.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/import.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/bltinmodule.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/eval.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/pyctype.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pystrtod.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/pystrcmp.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/fileutils.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/fileutils.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/cpython/pyfpe.h \
- /mnt/data/2026_1/go2_ws/.pixi/envs/default/include/python3.10/tracemalloc.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/context.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/modsupport.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/compile.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/compile.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pythonrun.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/pythonrun.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pylifecycle.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/pylifecycle.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/ceval.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/ceval.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/sysmodule.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/sysmodule.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/osmodule.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/intrcheck.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/import.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/import.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/bltinmodule.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/eval.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/pyctype.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pystrtod.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/pystrcmp.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/fileutils.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/fileutils.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/cpython/pyfpe.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10/tracemalloc.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
- /home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
- /home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
- /home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include/numpy/npy_common.h \
- /home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include/numpy/numpyconfig.h \
- /home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include/numpy/ndarrayobject.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include/numpy/ndarraytypes.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include/numpy/npy_common.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include/numpy/numpyconfig.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include/numpy/_numpyconfig.h \
  /usr/include/complex.h /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/cmathcalls.h \
- /home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include/numpy/npy_endian.h \
- /home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include/numpy/npy_cpu.h \
- /home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include/numpy/utils.h \
- /home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
- /home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include/numpy/dtype_api.h \
- /home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
- /home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
- /home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include/numpy/npy_endian.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include/numpy/npy_cpu.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include/numpy/utils.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include/numpy/_neighborhood_iterator_imp.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include/numpy/dtype_api.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include/numpy/__multiarray_api.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include/numpy/_public_dtype_api_table.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include/numpy/npy_2_compat.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /mnt/data/2026_1/go2_ws/build/champ_msgs/rosidl_generator_c/champ_msgs/msg/detail/point__struct.h \
- /mnt/data/2026_1/go2_ws/build/champ_msgs/rosidl_generator_c/champ_msgs/msg/detail/point__functions.h \
- /mnt/data/2026_1/go2_ws/build/champ_msgs/rosidl_generator_c/champ_msgs/msg/rosidl_generator_c__visibility_control.h
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_c/champ_msgs/msg/detail/point__struct.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_c/champ_msgs/msg/detail/point__functions.h \
+ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_c/champ_msgs/msg/rosidl_generator_c__visibility_control.h
