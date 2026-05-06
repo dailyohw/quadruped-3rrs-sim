@@ -1,5 +1,10 @@
 ### Usage
 
+If didn't have a environments, it need to install it.
+```bash
+sudo apt install ros-humble-robot-localization
+```
+
 Open two separate terminals to run the simulation and the teleoperation node.
 
 **Terminal 1: Simulation**
