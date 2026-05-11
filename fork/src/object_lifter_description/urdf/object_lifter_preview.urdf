@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<robot name="object_lifter_preview">
+  <!--
+    Preview URDF for ROS 2 + Ignition Gazebo 6.
+    Coordinate convention:
+      x: front/back direction
+      y: left/right direction
+      z: vertical direction
+
+    Main motions:
+      1. z_lift_joint: prismatic joint for vertical platform movement
+      2. roll_joint: revolute joint around x-axis
+      3. pitch_joint: revolute joint around y-axis
+
+    Design intent for the lower plate:
+      - The lower mount is attached to the very rear side of the lower base plate.
+      - The usable flat area in front of the lower mount is 135 mm x 140 mm.
+      - URDF uses meters, so 135 mm = 0.135 m and 140 mm = 0.140 m.
+  -->
+
+  <material name="green">
+    <color rgba="0.0 0.75 0.22 1.0"/>
+  </material>
+  <material name="dark_green">
+    <color rgba="0.0 0.45 0.18 1.0"/>
+  </material>
+  <material name="black">
+    <color rgba="0.02 0.02 0.02 1.0"/>
+  </material>
+
+  <!--
+    Lower base plate.
+    Total x length is 205 mm because it contains:
+      - 70 mm rear mount footprint region
+      - 135 mm usable front loading area
+    The plate width is 140 mm.
+
+    With the base centered at x = 0:
+      - rear edge  = -0.1025 m
+      - front edge = +0.1025 m
+    The lower mount is centered at x = -0.0675 m and has 70 mm length,
+    so the mount front edge is at x = -0.0325 m.
+    Therefore usable area length is from x = -0.0325 m to +0.1025 m = 0.135 m.
+  -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0.005" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.205 0.140 0.010"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.005" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.205 0.140 0.010"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.005" rpy="0 0 0"/>
+      <mass value="0.25"/>
+      <inertia ixx="0.000409" ixy="0" ixz="0" iyy="0.000881" iyz="0" izz="0.001284"/>
+    </inertial>
+  </link>
+
+  <!-- Rear lower mount block. This block is attached to the very rear of the base plate. -->
+  <link name="lower_mount_link">
+    <visual>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.070 0.070 0.030"/>
+      </geometry>
+      <material name="dark_green"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.070 0.070 0.030"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.015" rpy="0 0 0"/>
+      <mass value="0.08"/>
+      <inertia ixx="0.000033" ixy="0" ixz="0" iyy="0.000033" iyz="0" izz="0.000065"/>
+    </inertial>
+  </link>
+
+  <joint name="base_to_lower_mount_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="lower_mount_link"/>
+    <!--
+      Mount center x = -0.0675 m.
+      Mount rear edge aligns with base rear edge:
+        -0.0675 - 0.035 = -0.1025 m.
+      Mount front edge becomes the start of the usable 135 mm area:
+        -0.0675 + 0.035 = -0.0325 m.
+    -->
+    <origin xyz="-0.0675 0 0.010" rpy="0 0 0"/>
+  </joint>
+
+  <!-- Moving vertical slider/column. The joint origin is at the top of the lower mount. -->
+  <link name="z_slider_link">
+    <visual>
+      <origin xyz="0 0 0.060" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.025 0.025 0.120"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0.060" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.025 0.025 0.120"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0.060" rpy="0 0 0"/>
+      <mass value="0.08"/>
+      <inertia ixx="0.000100" ixy="0" ixz="0" iyy="0.000100" iyz="0" izz="0.000008"/>
+    </inertial>
+  </link>
+
+  <joint name="z_lift_joint" type="prismatic">
+    <parent link="lower_mount_link"/>
+    <child link="z_slider_link"/>
+    <origin xyz="0 0 0.030" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0.000" upper="0.120" effort="80" velocity="0.08"/>
+    <dynamics damping="2.0" friction="0.2"/>
+  </joint>
+
+  <!-- First rotational axis: roll around x-axis. -->
+  <link name="roll_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 1.57079632679 0"/>
+      <geometry>
+        <cylinder radius="0.022" length="0.050"/>
+      </geometry>
+      <material name="dark_green"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 1.57079632679 0"/>
+      <geometry>
+        <cylinder radius="0.022" length="0.050"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.03"/>
+      <inertia ixx="0.000010" ixy="0" ixz="0" iyy="0.000010" iyz="0" izz="0.000010"/>
+    </inertial>
+  </link>
+
+  <joint name="roll_joint" type="revolute">
+    <parent link="z_slider_link"/>
+    <child link="roll_link"/>
+    <origin xyz="0 0 0.125" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-0.5236" upper="0.5236" effort="20" velocity="1.0"/>
+    <dynamics damping="0.2" friction="0.05"/>
+  </joint>
+
+  <!-- Second rotational axis: pitch around y-axis. -->
+  <link name="pitch_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.57079632679 0 0"/>
+      <geometry>
+        <cylinder radius="0.018" length="0.050"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="1.57079632679 0 0"/>
+      <geometry>
+        <cylinder radius="0.018" length="0.050"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.03"/>
+      <inertia ixx="0.000008" ixy="0" ixz="0" iyy="0.000008" iyz="0" izz="0.000008"/>
+    </inertial>
+  </link>
+
+  <joint name="pitch_joint" type="revolute">
+    <parent link="roll_link"/>
+    <child link="pitch_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-0.5236" upper="0.5236" effort="20" velocity="1.0"/>
+    <dynamics damping="0.2" friction="0.05"/>
+  </joint>
+
+  <!--
+    Upper plate.
+    This is kept as the smaller upper object support plate, not the lower usable area.
+    It remains attached around the pitch joint as in the previous model.
+  -->
+  <link name="top_plate_link">
+    <visual>
+      <origin xyz="-0.040 0 0.020" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.135 0.100 0.006"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+    <collision>
+      <origin xyz="-0.040 0 0.020" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.135 0.100 0.006"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.040 0 0.020" rpy="0 0 0"/>
+      <mass value="0.12"/>
+      <inertia ixx="0.000196" ixy="0" ixz="0" iyy="0.000183" iyz="0" izz="0.000379"/>
+    </inertial>
+  </link>
+
+  <joint name="pitch_to_top_plate_joint" type="fixed">
+    <parent link="pitch_link"/>
+    <child link="top_plate_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <gazebo reference="base_link">
+    <material>Gazebo/Green</material>
+    <mu1>0.8</mu1>
+    <mu2>0.8</mu2>
+  </gazebo>
+  <gazebo reference="lower_mount_link">
+    <material>Gazebo/Green</material>
+  </gazebo>
+  <gazebo reference="z_slider_link">
+    <material>Gazebo/Green</material>
+  </gazebo>
+  <gazebo reference="roll_link">
+    <material>Gazebo/Green</material>
+  </gazebo>
+  <gazebo reference="pitch_link">
+    <material>Gazebo/Green</material>
+  </gazebo>
+  <gazebo reference="top_plate_link">
+    <material>Gazebo/Green</material>
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+  </gazebo>
+
+  <!--
+    Ignition Gazebo 6 / Fortress joint position controllers.
+    The teleop node publishes ignition.msgs.Double commands to these topics.
+  -->
+  <gazebo>
+    <plugin filename="ignition-gazebo-joint-position-controller-system"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>z_lift_joint</joint_name>
+      <topic>/object_lifter/z_lift_joint/cmd_pos</topic>
+      <p_gain>1200.0</p_gain>
+      <i_gain>0.0</i_gain>
+      <d_gain>20.0</d_gain>
+      <cmd_max>80.0</cmd_max>
+      <cmd_min>-80.0</cmd_min>
+    </plugin>
+
+    <plugin filename="ignition-gazebo-joint-position-controller-system"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>roll_joint</joint_name>
+      <topic>/object_lifter/roll_joint/cmd_pos</topic>
+      <p_gain>40.0</p_gain>
+      <i_gain>0.0</i_gain>
+      <d_gain>1.0</d_gain>
+      <cmd_max>20.0</cmd_max>
+      <cmd_min>-20.0</cmd_min>
+    </plugin>
+
+    <plugin filename="ignition-gazebo-joint-position-controller-system"
+            name="ignition::gazebo::systems::JointPositionController">
+      <joint_name>pitch_joint</joint_name>
+      <topic>/object_lifter/pitch_joint/cmd_pos</topic>
+      <p_gain>40.0</p_gain>
+      <i_gain>0.0</i_gain>
+      <d_gain>1.0</d_gain>
+      <cmd_max>20.0</cmd_max>
+      <cmd_min>-20.0</cmd_min>
+    </plugin>
+  </gazebo>
+</robot>
