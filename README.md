@@ -5,6 +5,8 @@ Simplified 3-RRS parallel mechanism URDF model for quadruped forklift simulation
 ## Description
 
 This package contains a simplified 3-RRS (Revolute-Revolute-Spherical) parallel mechanism designed as a forklift attachment for quadruped robots. The URDF model includes the base plate, lifting mechanism, and top platform.
+
+
 ![image](image/fork.png)
 ---
 
