@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
+CMAKE_COMMAND = /mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
 
 # The command to remove a file.
-RM = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
+RM = /mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs
+CMAKE_SOURCE_DIR = /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs
+CMAKE_BINARY_DIR = /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs
 
 # Utility rule file for uninstall.
 
@@ -81,6 +81,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)" uninstall
+	cd /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)" uninstall
 .PHONY : CMakeFiles/uninstall.dir/depend
 

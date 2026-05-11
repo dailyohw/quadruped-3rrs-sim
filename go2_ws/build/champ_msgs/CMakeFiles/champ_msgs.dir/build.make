@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
+CMAKE_COMMAND = /mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
 
 # The command to remove a file.
-RM = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
+RM = /mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs
+CMAKE_SOURCE_DIR = /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs
+CMAKE_BINARY_DIR = /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs
 
 # Utility rule file for champ_msgs.
 
@@ -66,15 +66,15 @@ include CMakeFiles/champ_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/champ_msgs.dir/progress.make
 
-CMakeFiles/champ_msgs: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Velocities.msg
-CMakeFiles/champ_msgs: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/PID.msg
-CMakeFiles/champ_msgs: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Imu.msg
-CMakeFiles/champ_msgs: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Point.msg
-CMakeFiles/champ_msgs: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/PointArray.msg
-CMakeFiles/champ_msgs: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Joints.msg
-CMakeFiles/champ_msgs: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Contacts.msg
-CMakeFiles/champ_msgs: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/ContactsStamped.msg
-CMakeFiles/champ_msgs: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Pose.msg
+CMakeFiles/champ_msgs: /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Velocities.msg
+CMakeFiles/champ_msgs: /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/PID.msg
+CMakeFiles/champ_msgs: /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Imu.msg
+CMakeFiles/champ_msgs: /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Point.msg
+CMakeFiles/champ_msgs: /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/PointArray.msg
+CMakeFiles/champ_msgs: /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Joints.msg
+CMakeFiles/champ_msgs: /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Contacts.msg
+CMakeFiles/champ_msgs: /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/ContactsStamped.msg
+CMakeFiles/champ_msgs: /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs/msg/Pose.msg
 CMakeFiles/champ_msgs: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/champ_msgs: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 CMakeFiles/champ_msgs: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -154,6 +154,6 @@ CMakeFiles/champ_msgs.dir/clean:
 .PHONY : CMakeFiles/champ_msgs.dir/clean
 
 CMakeFiles/champ_msgs.dir/depend:
-	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles/champ_msgs.dir/DependInfo.cmake "--color=$(COLOR)" champ_msgs
+	cd /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles/champ_msgs.dir/DependInfo.cmake "--color=$(COLOR)" champ_msgs
 .PHONY : CMakeFiles/champ_msgs.dir/depend
 

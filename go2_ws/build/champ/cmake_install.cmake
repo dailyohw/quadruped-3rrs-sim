@@ -1,8 +1,8 @@
-# Install script for directory: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ
+# Install script for directory: /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/champ")
+  set(CMAKE_INSTALL_PREFIX "/mnt/data/git/quadruped-3rrs-sim/go2_ws/install/champ")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,15 +43,15 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/champ")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/champ")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/champ")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/champ")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ/environment" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ/environment" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -67,52 +67,52 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ/environment" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ/environment" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_index/share/ament_index/resource_index/packages/champ")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_index/share/ament_index/resource_index/packages/champ")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ/cmake" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ/cmake" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ/cmake" TYPE FILE FILES
-    "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_core/champConfig.cmake"
-    "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_core/champConfig-version.cmake"
+    "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_core/champConfig.cmake"
+    "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_core/champConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/champ" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ/package.xml")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/install_local_manifest.txt"
+  file(WRITE "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -128,6 +128,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

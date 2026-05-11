@@ -2,7 +2,7 @@
 # ament_cmake_core/cmake/uninstall_target/ament_cmake_uninstall_target.cmake.in
 
 function(ament_cmake_uninstall_target_remove_empty_directories path)
-  set(install_space "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/unitree_go2_sim")
+  set(install_space "/mnt/data/git/quadruped-3rrs-sim/go2_ws/install/unitree_go2_sim")
   if(install_space STREQUAL "")
     message(FATAL_ERROR "The CMAKE_INSTALL_PREFIX variable must not be empty")
   endif()
@@ -21,7 +21,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
   list(LENGTH files length)
   if(length EQUAL 0)
     message(STATUS "Uninstalling: ${path}/")
-    execute_process(COMMAND "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake" "-E" "remove_directory" "${path}")
+    execute_process(COMMAND "/mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake" "-E" "remove_directory" "${path}")
     # recursively try to remove parent directories
     get_filename_component(parent_path "${path}" PATH)
     ament_cmake_uninstall_target_remove_empty_directories("${parent_path}")
@@ -29,7 +29,7 @@ function(ament_cmake_uninstall_target_remove_empty_directories path)
 endfunction()
 
 # uninstall files installed using the standard install() function
-set(install_manifest "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/install_manifest.txt")
+set(install_manifest "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/install_manifest.txt")
 if(NOT EXISTS "${install_manifest}")
   message(FATAL_ERROR "Cannot find install manifest: ${install_manifest}")
 endif()

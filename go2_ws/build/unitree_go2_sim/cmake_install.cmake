@@ -1,8 +1,8 @@
-# Install script for directory: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/unitree_go2_sim
+# Install script for directory: /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/unitree_go2_sim
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/install/unitree_go2_sim")
+  set(CMAKE_INSTALL_PREFIX "/mnt/data/git/quadruped-3rrs-sim/go2_ws/install/unitree_go2_sim")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,23 +43,23 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE DIRECTORY FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/unitree_go2_sim/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE DIRECTORY FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/unitree_go2_sim/launch")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE DIRECTORY FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/unitree_go2_sim/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE DIRECTORY FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/unitree_go2_sim/config")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE DIRECTORY FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/unitree_go2_sim/rviz")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE DIRECTORY FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/unitree_go2_sim/rviz")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/unitree_go2_sim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/unitree_go2_sim")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/unitree_go2_sim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/unitree_go2_sim")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -67,7 +67,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim/environment" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim/environment" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,48 +75,48 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim/environment" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim/environment" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_index/share/ament_index/resource_index/packages/unitree_go2_sim")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_index/share/ament_index/resource_index/packages/unitree_go2_sim")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim/cmake" TYPE FILE FILES
-    "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_core/unitree_go2_simConfig.cmake"
-    "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_core/unitree_go2_simConfig-version.cmake"
+    "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_core/unitree_go2_simConfig.cmake"
+    "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/ament_cmake_core/unitree_go2_simConfig-version.cmake"
     )
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE FILE FILES "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/unitree_go2_sim/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_go2_sim" TYPE FILE FILES "/mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/unitree_go2_sim/package.xml")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/install_local_manifest.txt"
+  file(WRITE "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -132,6 +132,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/unitree_go2_sim/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

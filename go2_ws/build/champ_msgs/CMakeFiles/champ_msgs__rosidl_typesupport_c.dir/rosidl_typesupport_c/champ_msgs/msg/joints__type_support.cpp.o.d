@@ -1,5 +1,5 @@
 CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/msg/joints__type_support.cpp.o: \
- /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_typesupport_c/champ_msgs/msg/joints__type_support.cpp \
+ /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_typesupport_c/champ_msgs/msg/joints__type_support.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/cstddef \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -15,7 +15,7 @@ CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
- /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_c/champ_msgs/msg/detail/joints__struct.h \
+ /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_c/champ_msgs/msg/detail/joints__struct.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -26,8 +26,8 @@ CMakeFiles/champ_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/champ_msgs/
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_c/champ_msgs/msg/detail/joints__type_support.h \
- /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_c/champ_msgs/msg/rosidl_generator_c__visibility_control.h \
+ /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_c/champ_msgs/msg/detail/joints__type_support.h \
+ /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_c/champ_msgs/msg/rosidl_generator_c__visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/identifier.h \
  /opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/visibility_control.h \
  /opt/ros/humble/include/rosidl_typesupport_c/rosidl_typesupport_c/message_type_support_dispatch.h \

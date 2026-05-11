@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_base/cmake_install.cmake"
+		"/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_base/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

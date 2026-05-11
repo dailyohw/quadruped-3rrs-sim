@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
+CMAKE_COMMAND = /mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
 
 # The command to remove a file.
-RM = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
+RM = /mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs
+CMAKE_SOURCE_DIR = /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs
+CMAKE_BINARY_DIR = /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs
 
 # Include any dependencies generated for this target.
 include CMakeFiles/champ_msgs__rosidl_generator_py.dir/depend.make
@@ -75,128 +75,128 @@ CMakeFiles/champ_msgs__rosidl_generator_py.dir/codegen:
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o: rosidl_generator_py/champ_msgs/msg/_velocities_s.c
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o -c /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_velocities_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.o -c /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_velocities_s.c
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_velocities_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_velocities_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.i
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_velocities_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_velocities_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_velocities_s.c.s
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o: rosidl_generator_py/champ_msgs/msg/_pid_s.c
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o -c /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_pid_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.o -c /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_pid_s.c
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_pid_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_pid_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.i
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_pid_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_pid_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pid_s.c.s
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o: rosidl_generator_py/champ_msgs/msg/_imu_s.c
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o -c /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_imu_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.o -c /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_imu_s.c
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_imu_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_imu_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.i
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_imu_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_imu_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_imu_s.c.s
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o: rosidl_generator_py/champ_msgs/msg/_point_s.c
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o -c /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_point_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.o -c /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_point_s.c
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_point_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_point_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.i
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_point_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_point_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_s.c.s
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o: rosidl_generator_py/champ_msgs/msg/_point_array_s.c
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o -c /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_point_array_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.o -c /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_point_array_s.c
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_point_array_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_point_array_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.i
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_point_array_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_point_array_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_point_array_s.c.s
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o: rosidl_generator_py/champ_msgs/msg/_joints_s.c
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o -c /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_joints_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.o -c /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_joints_s.c
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_joints_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_joints_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.i
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_joints_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_joints_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_joints_s.c.s
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o: rosidl_generator_py/champ_msgs/msg/_contacts_s.c
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o -c /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_contacts_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.o -c /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_contacts_s.c
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_contacts_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_contacts_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.i
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_contacts_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_contacts_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_s.c.s
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o: rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o -c /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o -c /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.i
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.s
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/flags.make
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o: rosidl_generator_py/champ_msgs/msg/_pose_s.c
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o: CMakeFiles/champ_msgs__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o -c /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_pose_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o -MF CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o.d -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o -c /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_pose_s.c
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_pose_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_pose_s.c > CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.i
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_pose_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py/champ_msgs/msg/_pose_s.c -o CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.s
 
 # Object files for target champ_msgs__rosidl_generator_py
 champ_msgs__rosidl_generator_py_OBJECTS = \
@@ -223,7 +223,7 @@ rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so: CMakeFiles
 rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so: CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c.o
 rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so: CMakeFiles/champ_msgs__rosidl_generator_py.dir/rosidl_generator_py/champ_msgs/msg/_pose_s.c.o
 rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so: CMakeFiles/champ_msgs__rosidl_generator_py.dir/build.make
-rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/libpython3.10.so
+rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so: /mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/libpython3.10.so
 rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so: libchamp_msgs__rosidl_typesupport_c.so
 rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
 rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so: libchamp_msgs__rosidl_generator_c.so
@@ -239,7 +239,7 @@ rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so: /opt/ros/h
 rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so: /opt/ros/humble/lib/librcutils.so
 rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so: CMakeFiles/champ_msgs__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C shared library rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C shared library rosidl_generator_py/champ_msgs/libchamp_msgs__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/champ_msgs__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -251,6 +251,6 @@ CMakeFiles/champ_msgs__rosidl_generator_py.dir/clean:
 .PHONY : CMakeFiles/champ_msgs__rosidl_generator_py.dir/clean
 
 CMakeFiles/champ_msgs__rosidl_generator_py.dir/depend:
-	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles/champ_msgs__rosidl_generator_py.dir/DependInfo.cmake "--color=$(COLOR)" champ_msgs__rosidl_generator_py
+	cd /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles/champ_msgs__rosidl_generator_py.dir/DependInfo.cmake "--color=$(COLOR)" champ_msgs__rosidl_generator_py
 .PHONY : CMakeFiles/champ_msgs__rosidl_generator_py.dir/depend
 

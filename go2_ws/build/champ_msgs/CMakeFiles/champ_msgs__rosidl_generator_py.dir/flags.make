@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = -DRCUTILS_ENABLE_FAULT_INJECTION -DROS_PACKAGE_NAME=\"champ_msgs\" -Dchamp_msgs__rosidl_generator_py_EXPORTS
 
-C_INCLUDES = -I/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_c -I/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py -I/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10 -I/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/lib/python3.10/site-packages/numpy/_core/include -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/geometry_msgs
+C_INCLUDES = -I/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_c -I/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py -I/mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/include/python3.10 -I/home/cjk/.local/lib/python3.10/site-packages/numpy/_core/include -isystem /opt/ros/humble/include/std_msgs -isystem /opt/ros/humble/include/builtin_interfaces -isystem /opt/ros/humble/include/rosidl_runtime_c -isystem /opt/ros/humble/include/rcutils -isystem /opt/ros/humble/include/rosidl_typesupport_interface -isystem /opt/ros/humble/include/geometry_msgs
 
 C_FLAGS = -fPIC -Wall -Wextra
 

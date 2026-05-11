@@ -44,50 +44,50 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
+CMAKE_COMMAND = /mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
 
 # The command to remove a file.
-RM = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
+RM = /mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs
+CMAKE_SOURCE_DIR = /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs
+CMAKE_BINARY_DIR = /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs
 
 # Utility rule file for champ_msgs__py.
 
 # Include any custom commands dependencies for this target.
-include /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/compiler_depend.make
+include /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/compiler_depend.make
 
 # Include the progress variables for this target.
-include /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/progress.make
+include /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/progress.make
 
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_velocities.py
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_pid.py
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_imu.py
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_point.py
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_point_array.py
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_joints.py
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_contacts.py
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_contacts_stamped.py
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_pose.py
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/__init__.py
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_velocities_s.c
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_pid_s.c
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_imu_s.c
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_point_s.c
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_point_array_s.c
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_joints_s.c
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_contacts_s.c
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_pose_s.c
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_velocities.py
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_pid.py
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_imu.py
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_point.py
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_point_array.py
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_joints.py
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_contacts.py
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_contacts_stamped.py
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_pose.py
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/__init__.py
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_velocities_s.c
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_pid_s.c
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_imu_s.c
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_point_s.c
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_point_array_s.c
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_joints_s.c
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_contacts_s.c
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_pose_s.c
 
 rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -175,8 +175,8 @@ rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c:
 rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
 rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
-	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py && /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
+	cd /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py && /mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
 rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c: rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c
@@ -241,10 +241,10 @@ rosidl_generator_py/champ_msgs/msg/_contacts_stamped_s.c: rosidl_generator_py/ch
 rosidl_generator_py/champ_msgs/msg/_pose_s.c: rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/champ_msgs/msg/_pose_s.c
 
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/codegen:
-.PHONY : /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/codegen
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/codegen:
+.PHONY : /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/codegen
 
-champ_msgs__py: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py
+champ_msgs__py: /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py
 champ_msgs__py: rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_c.c
 champ_msgs__py: rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
 champ_msgs__py: rosidl_generator_py/champ_msgs/_champ_msgs_s.ep.rosidl_typesupport_introspection_c.c
@@ -267,18 +267,18 @@ champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_pose.py
 champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_pose_s.c
 champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_velocities.py
 champ_msgs__py: rosidl_generator_py/champ_msgs/msg/_velocities_s.c
-champ_msgs__py: /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/build.make
+champ_msgs__py: /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/build.make
 .PHONY : champ_msgs__py
 
 # Rule to build all files generated by this target.
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/build: champ_msgs__py
-.PHONY : /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/build
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/build: champ_msgs__py
+.PHONY : /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/build
 
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/clean:
-	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/champ_msgs__py.dir/cmake_clean.cmake
-.PHONY : /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/clean
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/clean:
+	cd /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py && $(CMAKE_COMMAND) -P CMakeFiles/champ_msgs__py.dir/cmake_clean.cmake
+.PHONY : /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/clean
 
-/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/depend:
-	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/DependInfo.cmake "--color=$(COLOR)" champ_msgs__py
-.PHONY : /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/depend
+/mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/depend:
+	cd /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ_msgs /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/DependInfo.cmake "--color=$(COLOR)" champ_msgs__py
+.PHONY : /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ_msgs/champ_msgs__py/CMakeFiles/champ_msgs__py.dir/depend
 

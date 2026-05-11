@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
+CMAKE_COMMAND = /mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake
 
 # The command to remove a file.
-RM = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
+RM = /mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ
+CMAKE_SOURCE_DIR = /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ
+CMAKE_BINARY_DIR = /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ
 
 # Utility rule file for champ_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/champ_uninstall.dir/compiler_depend.make
 include CMakeFiles/champ_uninstall.dir/progress.make
 
 CMakeFiles/champ_uninstall:
-	/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -P /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/cmake -P /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 CMakeFiles/champ_uninstall.dir/codegen:
 .PHONY : CMakeFiles/champ_uninstall.dir/codegen
@@ -85,6 +85,6 @@ CMakeFiles/champ_uninstall.dir/clean:
 .PHONY : CMakeFiles/champ_uninstall.dir/clean
 
 CMakeFiles/champ_uninstall.dir/depend:
-	cd /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ /home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/build/champ/CMakeFiles/champ_uninstall.dir/DependInfo.cmake "--color=$(COLOR)" champ_uninstall
+	cd /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ /mnt/data/git/quadruped-3rrs-sim/go2_ws/src/unitree_go2_ros2/champ /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ /mnt/data/git/quadruped-3rrs-sim/go2_ws/build/champ/CMakeFiles/champ_uninstall.dir/DependInfo.cmake "--color=$(COLOR)" champ_uninstall
 .PHONY : CMakeFiles/champ_uninstall.dir/depend
 

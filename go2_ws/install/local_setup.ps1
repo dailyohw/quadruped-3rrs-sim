@@ -12,7 +12,7 @@ if ($env:COLCON_PYTHON_EXECUTABLE) {
   $_colcon_python_executable="$env:COLCON_PYTHON_EXECUTABLE"
 } else {
   # use the Python executable known at configure time
-  $_colcon_python_executable="/home/cjk/2026-1/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/python3.10"
+  $_colcon_python_executable="/mnt/data/git/quadruped-3rrs-sim/go2_ws/.pixi/envs/default/bin/python3.10"
   # if it doesn't exist try a fall back
   if (!(Test-Path "$_colcon_python_executable" -PathType Leaf)) {
     if (!(Get-Command "python3" -ErrorAction SilentlyContinue)) {
