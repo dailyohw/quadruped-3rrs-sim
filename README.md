@@ -59,6 +59,15 @@ The teleoperation node provides keyboard control for both the GO2 robot base and
 | Rotate Left / Right     | `a` / `d`     | Rotate robot counterclockwise or clockwise |
 | Stop Robot              | `space` or `m` | Stop all robot velocity               |
 
+### Go2 body pose (smooth interpolation)
+
+| Function                | Key       | Description                           |
+| ----------------------- | --------- | ------------------------------------- |
+| front legs up / down          | `r` / `f` | movement keys auto-reset legs to 0        |
+| rear  legs up / down        | `t` / `g` | movement keys auto-reset legs to 0               |
+
+
+
 ### Fork Mechanism Control
 
 | Function                | Key       | Description                           |
