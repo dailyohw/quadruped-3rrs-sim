@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="fork_mechanism" params="parent xyz:='0.34 0 -0.18' rpy:='0 0 0'">
+
+    <material name="fork_green">
+      <color rgba="0.0 0.75 0.22 1.0"/>
+    </material>
+
+    <material name="fork_dark_green">
+      <color rgba="0.0 0.45 0.18 1.0"/>
+    </material>
+
+    <!--
+      핵심 수정:
+      예전에는 fork_base_link, 즉 큰 하단 plate가 Go2 trunk에 fixed로 붙어 있었음.
+      이제는 fork_top_plate_link, 즉 상단 mounting plate가 Go2 trunk에 fixed로 붙고,
+      그 아래의 fork_base_link가 z/roll/pitch 조인트를 따라 움직임.
+    -->
+    <joint name="fork_attach_joint" type="fixed">
+      <parent link="${parent}"/>
+      <child link="fork_top_plate_link"/>
+      <origin xyz="${xyz}" rpy="${rpy}"/>
+    </joint>
+
+    <!-- 로봇에 고정되는 상단 plate -->
+    <link name="fork_top_plate_link">
+      <visual>
+        <origin xyz="0 0 0.005" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.135 0.140 0.010"/>
+        </geometry>
+        <material name="fork_green"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0.005" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.135 0.140 0.010"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <origin xyz="0 0 0.005" rpy="0 0 0"/>
+        <mass value="0.12"/>
+        <inertia ixx="0.000196" ixy="0" ixz="0" iyy="0.000183" iyz="0" izz="0.000379"/>
+      </inertial>
+    </link>
+
+    <!-- z 방향으로 움직이는 슬라이더. 이 링크 이하 전체가 위/아래로 움직임 -->
+    <link name="fork_z_slider_link">
+      <visual>
+        <origin xyz="0 0 -0.070" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.025 0.025 0.140"/>
+        </geometry>
+        <material name="fork_green"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 -0.070" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.025 0.025 0.140"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <origin xyz="0 0 -0.070" rpy="0 0 0"/>
+        <mass value="0.08"/>
+        <inertia ixx="0.000130" ixy="0" ixz="0" iyy="0.000130" iyz="0" izz="0.000008"/>
+      </inertial>
+    </link>
+
+    <joint name="fork_z_lift_joint" type="prismatic">
+      <parent link="fork_top_plate_link"/>
+      <child link="fork_z_slider_link"/>
+      <origin xyz="0 0 -0.020" rpy="0 0 0"/>
+      <axis xyz="0 0 1"/>
+      <limit lower="0.000" upper="0.120" effort="80" velocity="0.08"/>
+      <dynamics damping="2.0" friction="0.2"/>
+    </joint>
+
+    <!-- roll joint: 이 아래의 fork plate 전체가 roll 됨 -->
+    <link name="fork_roll_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 1.57079632679 0"/>
+        <geometry>
+          <cylinder radius="0.022" length="0.050"/>
+        </geometry>
+        <material name="fork_dark_green"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 1.57079632679 0"/>
+        <geometry>
+          <cylinder radius="0.022" length="0.050"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.000010" ixy="0" ixz="0" iyy="0.000010" iyz="0" izz="0.000010"/>
+      </inertial>
+    </link>
+
+    <joint name="fork_roll_joint" type="revolute">
+      <parent link="fork_z_slider_link"/>
+      <child link="fork_roll_link"/>
+      <origin xyz="0 0 -0.145" rpy="0 0 0"/>
+      <axis xyz="1 0 0"/>
+      <limit lower="-0.5236" upper="0.5236" effort="20" velocity="1.0"/>
+      <dynamics damping="0.2" friction="0.05"/>
+    </joint>
+
+    <!-- pitch joint: 이 아래의 fork plate 전체가 pitch 됨 -->
+    <link name="fork_pitch_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="1.57079632679 0 0"/>
+        <geometry>
+          <cylinder radius="0.018" length="0.050"/>
+        </geometry>
+        <material name="fork_green"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="1.57079632679 0 0"/>
+        <geometry>
+          <cylinder radius="0.018" length="0.050"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="0.03"/>
+        <inertia ixx="0.000008" ixy="0" ixz="0" iyy="0.000008" iyz="0" izz="0.000008"/>
+      </inertial>
+    </link>
+
+    <joint name="fork_pitch_joint" type="revolute">
+      <parent link="fork_roll_link"/>
+      <child link="fork_pitch_link"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <axis xyz="0 1 0"/>
+      <limit lower="-0.5236" upper="0.5236" effort="20" velocity="1.0"/>
+      <dynamics damping="0.2" friction="0.05"/>
+    </joint>
+
+    <!-- 하단 plate 위쪽의 작은 마운트 블록. pitch/roll/z와 함께 움직임 -->
+    <link name="fork_lower_mount_link">
+      <visual>
+        <origin xyz="0 0 -0.020" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.070 0.070 0.040"/>
+        </geometry>
+        <material name="fork_dark_green"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 -0.020" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.070 0.070 0.040"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <origin xyz="0 0 -0.020" rpy="0 0 0"/>
+        <mass value="0.08"/>
+        <inertia ixx="0.000033" ixy="0" ixz="0" iyy="0.000033" iyz="0" izz="0.000065"/>
+      </inertial>
+    </link>
+
+    <joint name="fork_pitch_to_lower_mount_joint" type="fixed">
+      <parent link="fork_pitch_link"/>
+      <child link="fork_lower_mount_link"/>
+      <origin xyz="0 0 -0.030" rpy="0 0 0"/>
+    </joint>
+
+    <!-- 실제 물체를 받치는 큰 하단 fork plate. 이제 이 plate가 z/roll/pitch로 움직임 -->
+    <link name="fork_base_link">
+      <visual>
+        <origin xyz="0 0 0.005" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.205 0.140 0.010"/>
+        </geometry>
+        <material name="fork_green"/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0.005" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.205 0.140 0.010"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <origin xyz="0 0 0.005" rpy="0 0 0"/>
+        <mass value="0.25"/>
+        <inertia ixx="0.000409" ixy="0" ixz="0" iyy="0.000881" iyz="0" izz="0.001284"/>
+      </inertial>
+    </link>
+
+    <joint name="fork_lower_mount_to_base_joint" type="fixed">
+      <parent link="fork_lower_mount_link"/>
+      <child link="fork_base_link"/>
+      <origin xyz="0.0675 0 -0.045" rpy="0 0 0"/>
+    </joint>
+
+    <!-- Gazebo visual/friction 설정 -->
+    <gazebo reference="fork_top_plate_link">
+      <material>Gazebo/Green</material>
+      <mu1>1.0</mu1>
+      <mu2>1.0</mu2>
+    </gazebo>
+
+    <gazebo reference="fork_z_slider_link">
+      <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="fork_roll_link">
+      <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="fork_pitch_link">
+      <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="fork_lower_mount_link">
+      <material>Gazebo/Green</material>
+    </gazebo>
+
+    <gazebo reference="fork_base_link">
+      <material>Gazebo/Green</material>
+      <mu1>1.0</mu1>
+      <mu2>1.0</mu2>
+    </gazebo>
+
+    <!-- Ignition Gazebo JointPositionController: topic 이름은 기존 teleop과 동일하게 유지 -->
+    <gazebo>
+      <plugin filename="ignition-gazebo-joint-position-controller-system"
+              name="ignition::gazebo::systems::JointPositionController">
+        <joint_name>fork_z_lift_joint</joint_name>
+        <topic>/object_lifter/z_lift_joint/cmd_pos</topic>
+        <p_gain>1200.0</p_gain>
+        <i_gain>0.0</i_gain>
+        <d_gain>20.0</d_gain>
+        <cmd_max>80.0</cmd_max>
+        <cmd_min>-80.0</cmd_min>
+      </plugin>
+
+      <plugin filename="ignition-gazebo-joint-position-controller-system"
+              name="ignition::gazebo::systems::JointPositionController">
+        <joint_name>fork_roll_joint</joint_name>
+        <topic>/object_lifter/roll_joint/cmd_pos</topic>
+        <p_gain>40.0</p_gain>
+        <i_gain>0.0</i_gain>
+        <d_gain>1.0</d_gain>
+        <cmd_max>20.0</cmd_max>
+        <cmd_min>-20.0</cmd_min>
+      </plugin>
+
+      <plugin filename="ignition-gazebo-joint-position-controller-system"
+              name="ignition::gazebo::systems::JointPositionController">
+        <joint_name>fork_pitch_joint</joint_name>
+        <topic>/object_lifter/pitch_joint/cmd_pos</topic>
+        <p_gain>40.0</p_gain>
+        <i_gain>0.0</i_gain>
+        <d_gain>1.0</d_gain>
+        <cmd_max>20.0</cmd_max>
+        <cmd_min>-20.0</cmd_min>
+      </plugin>
+    </gazebo>
+
+  </xacro:macro>
+
+</robot>
+

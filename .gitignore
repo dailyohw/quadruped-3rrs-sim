@@ -1,0 +1,33 @@
+# --- ROS 2 Build Artifacts ---
+go2_ws/build/
+go2_ws/install/
+go2_ws/log/
+
+# --- Python & Environment ---
+**/__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# --- Pixi & Package Managers ---
+.pixi/
+
+
+# --- OS & IDE Specific ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- System & Mount ---
+.tmp
+.bak
+
+# --- Compiled Files ---
+*.o
+*.so
+*.a
