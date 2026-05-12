@@ -53,8 +53,3 @@ python3 go2_int_teleop_key.py
 | `5` | Print help menu |
 | `Ctrl-C` | Quit |
 
-
-### Features
-
-- **Independent Leg Control**: Unlike the default `teleop_twist_keyboard`, this node allows independent vertical (up/down) control of the front and rear legs.
-- **Auto-Height Reset**: When initiating directional movement, the robot automatically resets its height to `0` before executing the motion.
