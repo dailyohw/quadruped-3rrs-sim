@@ -33,7 +33,7 @@ Start the ROS-Gazebo bridge for communication:
 ```bash
 cd /mnt/data/2026_1/go2_ws
 source install/setup.bash
-ros2 launch unitree_go2_sim unitree_go2_with_fork_launch.py
+ros2 launch unitree_go2_sim go2_fork_teleop_launch.py start_teleop:=false
 ```
 
 ### Terminal 3: Execute Teleop
