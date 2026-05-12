@@ -6,7 +6,7 @@ Simplified 3-RRS parallel mechanism + Unitree GO2 Gazebo Simulation
 
 This package provides a complete simulation environment for the Unitree GO2 quadruped robot equipped with a 3-DOF fork mechanism (simplified 3-RRS parallel mechanism). The simulation runs in Gazebo and includes keyboard teleoperation for both robot locomotion and fork manipulation.
 
-![image](image/Screenshot from 2026-05-12 12-37-55.png)
+![image](image/pic.png)
 
 ## Build Instructions
 
